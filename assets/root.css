@@ -1,0 +1,211 @@
+:root {
+    /* font-size */
+    --fs-40: 40px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-36: 36px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+   
+
+
+    /* font-weight */
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-500: 500;
+
+
+    /* color */
+
+    --green: #88C701;
+    --section1: #060400;
+    --btn: #010100;
+    --black: #000000;
+    --btn_text: #E6C788;
+    --white: #FFFFFF;
+    --golden: #E8CA90;
+    --lightblack:#4D4D4D;
+    --darkblack: #4A4C4A;
+    --golden2: #D9B062;
+    --para_1: #808080;
+    --light_black: #787C76;
+        --bg_color:#F0F8EC;
+
+
+
+
+    /* line-height */
+    --line-20: 20px;
+    --line-47: 47px;
+    --line-42: 42.3px;
+    --line-24: 24px;
+    --line-38: 38.4px;
+    --line-16: 16px;
+    --line-49: 49.5px;
+    --line-25: 25.6px;
+    --line-23: 23.5px;
+
+}
+
+.libre{
+    font-family: 'Libre Caslon Text',sans-serif;
+}
+
+.poppins{
+    font-family: 'Poppins',sans-serif;
+}
+.line-23{
+    line-height: var(--line-23);
+}
+.line-20 {
+    line-height: var(--line-20);
+}
+.line-47 {
+    line-height: var(--line-47);
+}
+
+.line-42 {
+    line-height: var(--line-42);
+}
+.line-24{
+    line-height: var(--line-24);
+}
+.line-38{
+    line-height: var(--line-38);
+}
+.line-16{
+    line-height: var(--line-16);
+}
+.line-49{
+    line-height: var(--line-49);
+}
+.line-25{
+    line-height: var(--line-25);
+} 
+.green {
+    color: var(--green);
+}
+
+.para_2 {
+    color: var(--para_2);
+}
+
+.section1 {
+    color: var(--section1);
+}
+
+.btn {
+    color: var(--btn);
+}
+.black{
+    color: var(--black);
+}
+
+.light_black {
+    color: var(--light_black);
+}
+
+.footer {
+    color: var(--footer);
+}
+
+.btn_text {
+    color: var(--btn_text);
+}
+
+.white {
+    color: var(--white);
+}
+
+.golden {
+    color: var(--golden);
+}
+
+.lightblack {
+    color: var(--lightblack);
+}
+
+.darkblack {
+    color: var(--darkblack);
+}
+
+.golden2 {
+    color: var(--golden2);
+}
+
+.para_1 {
+    color: var(--para_1);
+}
+
+.border {
+    color: var(--border);
+}
+
+.bg_color {
+    color: var(--bg_color);
+}
+
+.slider {
+    color: var(--slider);
+}
+
+
+
+
+.plus {
+    font-family: 'Plus Jakarta Display', sans-serif;
+}
+
+.line_h {
+    line-height: 24px;
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+ @media (max-width:768px) {
+    :root {
+        /* font-size */
+        --fs-40: 28px;
+        --fs-16: 12px;
+        --fs-20: 20px;
+        --fs-36: 23px;
+        --fs-22: 18px;
+        --fs-24: 24px;
+       
+    
+    }    
+ }
