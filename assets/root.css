@@ -202,9 +202,22 @@
         --fs-40: 28px;
         --fs-16: 12px;
         --fs-20: 20px;
-        --fs-36: 23px;
+        --fs-36: 22px;
         --fs-22: 18px;
         --fs-24: 24px;
+       
+    
+    }  
+    :root {
+        --line-20: 20px;
+        --line-47: 47px;
+        --line-42: 30.3px;
+        --line-24: 24px;
+        --line-38: 38.4px;
+        --line-16: 16px;
+        --line-49: 49.5px;
+        --line-25: 19.6px;
+        --line-23: 23.5px;
        
     
     }    

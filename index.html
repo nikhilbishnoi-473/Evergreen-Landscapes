@@ -19,113 +19,65 @@
 </head>
 
 <body>
-  <section>
+  <!-- <section>
     <div class="image z_40 d_flex" id="preloader">
       <img id="img" class="first_box bounce  cursor" src="./assets/images/campletelogo.svg" alt="logo">
     </div>
-    <section class="d- none" id="home">
-      <div class="nav-box positon_absolute d-flex  align-items-center   ">
-        <div class="container bg-white p-0 max-w-1440  ">
-          <nav class="d-flex   align-items-center justify-content-between">
-            <div class="gap-3 pt_pb_10 text-nowrap ps-3">
-              <img class="cursor logo_wid " src="./assets/images/logo.png" alt="Logo">
-              <img class="logo2_wid" src="./assets/images/logo2.png" alt="logo2">
+    </section> -->
+  <section class="d- none" id="home">
+    <div class="nav-box  positon_absolute   ">
+      <div class="mx-auto  p-0    ">
+        <nav class="d-flex   align-items-center justify-content-between">
+          <div class="gap-3 pt_pb_10 text-nowrap ps-3">
+            <img class="cursor logo_wid " src="./assets/images/logo.png" alt="Logo">
+            <img class="logo2_wid" src="./assets/images/logo2.png" alt="logo2">
+          </div>
+          <ul class="d-flex mb-0 gap-41  align-items-center mobile_view" id="navbar">
+
+            <div class="d-flex gap_28 justify-content-center flex-col align-items-center ">
+
+              <li><a href="#home"
+                  class="poppins fw-400 fs-16 line-20 lightblack about_us under_line  text-nowrap" onclick="openNav()">Home</a>
+              </li>
+              <li><a href="#about"
+                  class="poppins fw-400 fs-16 line-20 lightblack about_us under_line   text-nowrap " onclick="openNav()">About
+                  us</a></li>
+              <li><a href="#issue" class="poppins fw-400 fs-16 line-20 lightblack about_us under_line  text-nowrap" onclick="openNav()" >Our
+                  Services</a></li>
+              <li><a href="#schol"
+                  class="poppins fw-400 fs-16 line-20 lightblack about_us under_line  text-nowrap " onclick="openNav()">Gallery</a>
+              </li>
+              <li><a href="#curric"
+                  class="poppins fw-400 fs-16 line-20 lightblack about_us under_line  text-nowrap" onclick="openNav()">Contact
+                  Us</a></li>
+
+
             </div>
-            <ul class="d-flex mb-0 gap-41  align-items-center mobile_view" id="navbar">
 
-              <div class="d-flex gap_28 justify-content-center flex-col align-items-center ">
-
-                <li><a href="#home" class="poppins fw-400 fs-16 line-20 lightblack under_line  text-nowrap">Home</a>
-                </li>
-                <li><a href="#about" class="poppins fw-400 fs-16 line-20 lightblack under_line   text-nowrap ">About
-                    us</a></li>
-                <li><a href="#issue" class="poppins fw-400 fs-16 line-20 lightblack under_line  text-nowrap">Our
-                    Services</a></li>
-                <li><a href="#schol"
-                    class="poppins fw-400 fs-16 line-20 lightblack under_line  text-nowrap ">Gallery</a>
-                </li>
-                <li><a href="#curric" class="poppins fw-400 fs-16 line-20 lightblack under_line  text-nowrap">Contact
-                    Us</a></li>
-
-
-              </div>
-
-              <ul class="m-0 p-0">
-                <li>
-                  <button class="btn_1 poppins fw-500 fs-16 line-20  text-nowrap">Request a quote</button>
-                </li>
-              </ul>
-
-
+            <ul class="m-0 p-0">
+              <li>
+                <button class="btn_1 poppins fw-500 fs-16 line-20  text-nowrap">Request a quote</button>
               </li>
             </ul>
-            <div onclick="openNav()" class="menu pe-2  d-block d-xl-none z-5">
-              <span></span>
-              <span class="my-2"></span>
-              <span></span>
-            </div>
-          </nav>
-        </div>
-      </div>
 
-      <div class="header_image z-1 position-relative d-flex">
-        <div class="bg_image_1">
-          <div class="container  max-w-1140">
-            <div class="row ">
-              <div class="col-6 col-12 h_100 flex-column justify-content-end d-flex">
-                <div class=" ">
-                  <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Ut pretium egestas <span
-                      class="fst-italic">sagittis convallis
-                    </span> </h1>
-                  <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
-                    malesuada
-                    pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
-                  <div class="mt-30 mb-49">
-                    <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            </li>
+          </ul>
+          <div onclick="openNav()" class="menu pe-2  d-block d-xl-none z-5">
+            <span></span>
+            <span class="my-2"></span>
+            <span></span>
           </div>
-        </div>
-        <div class="bg_image_2 d -none">
-          <div class="container max-w-1140">
-            <div class="row ">
-              <div class="col-6 col-12 h_100 d-flex flex-column justify-content-end">
-                <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Sit amet in <span
-                    class="fst-italic">vulputate ultrices
-                  </span> </h1>
-                <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
-                  malesuada
-                  pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
-                <div class="mt-30 mb-49">
-                  <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg_image_3 d -none">
-          <div class="container max-w-1140">
-            <div class="row ">
-              <div class="col-6 col-12 h_100 d-flex justify-content-end flex-column">
-                <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Donec orci mauris <span
-                    class="fst-italic">in enim viverra
-                  </span> </h1>
-                <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
-                  malesuada
-                  pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
-                <div class="mt-30 mb-49">
-                  <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg_image_4 d -none">
-          <div class="container max-w-1140">
-            <div class="row ">
-              <div class="col-6 col-12 d-flex h_100 justify-content-end flex-column">
+        </nav>
+      </div>
+    </div>
+
+    <div class="header_image  z-1 position-relative d-flex">
+      <div class="bg_image_1">
+        <div class="container  max-w-1140">
+          <div class="row ">
+            <div class="col-6 col-12 h_100 flex-column justify-content-end d-flex">
+              <div class=" ">
                 <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Ut pretium egestas <span
                     class="fst-italic">sagittis convallis
                   </span> </h1>
@@ -140,603 +92,721 @@
           </div>
         </div>
       </div>
-      <div class="prev-pos d-none d-lg-block">
-        <svg width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M34 1L2 33L34 65" stroke="white" stroke-width="2" />
-        </svg>
-
-      </div>
-      <div class="next-pos d-none d-lg-block">
-        <svg width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 1L33 33L1 65" stroke="white" stroke-width="2" />
-        </svg>
-
-
-      </div>
-      <div class="d-flex justify-content-center pt-94 pb-94">
-        <h4 class="libre mb-0 fw-500 fs-36 line-42 black ">Licensed - Bonded - Insured</h4>
-      </div>
-      </div>
-    </section>
-
-    <section class="bg_image  position-relative" id="about">
-      <div class="container max-w-1140">
-        <div class="d-flex justify-content-center text-center pt-76">
-          <h2 class="mb-0 fw-400 fs-36 line-42 libre  para-1">Why <span class="green fst-italic fw-500">customers
-              choose</span> Evergreen
-            Landscapes LLC</h2>
-
-        </div>
-
-        <div class="d-flex flex-wrap pt-44 gap-17 justify-content-center">
-          <div class="three_box">
-            <div class="small_circle d-flex justify-content-center align-items-center">
-              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
-                  fill="#88C701" />
-              </svg>
-
+      <div class="bg_image_2 d -none">
+        <div class="container max-w-1140">
+          <div class="row ">
+            <div class="col-6 col-12 h_100 d-flex flex-column justify-content-end">
+              <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Sit amet in <span
+                  class="fst-italic">vulputate ultrices
+                </span> </h1>
+              <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
+                malesuada
+                pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
+              <div class="mt-30 mb-49">
+                <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
+              </div>
             </div>
-            <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Creative Solutions</h3>
-            <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Landscape Design & Build</h4>
-          </div>
-          <div class="three_box">
-            <div class="small_circle d-flex justify-content-center align-items-center">
-              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M6 9.90955C6 11.5008 6.63214 13.027 7.75736 14.1522C8.88258 15.2774 10.4087 15.9095 12 15.9095C13.5913 15.9095 15.1174 15.2774 16.2426 14.1522C17.3679 13.027 18 11.5008 18 9.90955C18 8.31825 17.3679 6.79212 16.2426 5.66691C15.1174 4.54169 13.5913 3.90955 12 3.90955C10.4087 3.90955 8.88258 4.54169 7.75736 5.66691C6.63214 6.79212 6 8.31825 6 9.90955Z"
-                  stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                  d="M12.0003 15.9095L15.4003 21.7995L16.9983 18.5665L20.5963 18.7985L17.1963 12.9095M6.80234 12.9095L3.40234 18.7995L7.00034 18.5665L8.59834 21.7985L11.9983 15.9095"
-                  stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-
-
-            </div>
-            <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Customer Service</h3>
-            <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Our team is on call to deliver excellence to
-              our clients</h4>
-          </div>
-          <div class="three_box">
-            <div class="small_circle d-flex justify-content-center align-items-center">
-              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
-                  fill="#88C701" />
-              </svg>
-
-            </div>
-            <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Peace of mind</h3>
-            <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Proven Proactive Approach</h4>
           </div>
         </div>
+      </div>
+      <div class="bg_image_3 d -none">
+        <div class="container max-w-1140">
+          <div class="row ">
+            <div class="col-6 col-12 h_100 d-flex justify-content-end flex-column">
+              <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Donec orci mauris <span class="fst-italic">in
+                  enim viverra
+                </span> </h1>
+              <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
+                malesuada
+                pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
+              <div class="mt-30 mb-49">
+                <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg_image_4 d -none">
+        <div class="container max-w-1140">
+          <div class="row ">
+            <div class="col-6 col-12 d-flex h_100 justify-content-end flex-column">
+              <h1 class="mb-0 ut_pretium white libre fw-700 fs-40 line-47">Ut pretium egestas <span
+                  class="fst-italic">sagittis convallis
+                </span> </h1>
+              <p class="plates_ne poppins mb-0 fw-400 fs-16 line-20 white pt-8">Platea neque amet a dolor. Libero
+                malesuada
+                pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</p>
+              <div class="mt-30 mb-49">
+                <button class="btn_2 poppins fw-500 fs-16 line-20 white text-nowrap">Request a quote</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="prev-pos d-none d-lg-block">
+      <svg width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M34 1L2 33L34 65" stroke="white" stroke-width="2" />
+      </svg>
+
+    </div>
+    <div class="next-pos d-none d-lg-block">
+      <svg width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L33 33L1 65" stroke="white" stroke-width="2" />
+      </svg>
+
+
+    </div>
+    <div class="d-flex justify-content-center pt-94 pb-94">
+      <h4 class="libre mb-0 fw-500 fs-36 line-42 black fst-italic ">Licensed <span class="green">-</span> Bonded <span
+          class="green">-</span> Insured</h4>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg_image  position-relative" id="about">
+    <div class="container max-w-1140">
+      <div class="d-flex justify-content-center text-center pt-76">
+        <h2 class="mb-0 fw-400 fs-36 line-42 libre  para-1">Why <span class="green fst-italic fw-500">customers
+            choose</span> Evergreen
+          Landscapes LLC</h2>
 
       </div>
-      <div class="elips_position d-none d-lg-block">
-        <svg width="316" height="516" viewBox="0 0 316 516" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g opacity="0.5">
-            <path
-              d="M11.9486 -183.726C13.5886 -181.102 8.55677 -174.162 7.59974 -171.634C4.74828 -164.103 2.69159 -156.68 2.19025 -148.617C1.50006 -137.517 -0.0450963 -125.04 2.08418 -114.039C4.88617 -99.5619 18.9606 -85.8276 28.124 -75.1647C51.8633 -47.5408 84.7945 -30.8907 109.744 -4.5761C128.283 14.9776 138.299 38.8592 129.101 65.164C123.186 82.0817 114.82 98.1637 109.797 115.387C105.053 131.651 109.159 146.325 117.646 160.732C135.595 191.201 163.387 217.731 192 238.109C227.52 263.405 268.861 276.67 311.91 281.385C326.236 282.953 340.458 284.249 354.55 287.431C361.216 288.936 369.056 290.704 374.703 294.961C384.488 302.339 387.253 318.532 390.136 329.487C396.32 352.987 401.899 378.001 411.933 400.181C417.436 412.347 424.928 423.991 432.616 434.866C438.659 443.413 445.382 451.928 452.769 459.368C471.365 478.094 458.158 462.853 477.802 480.687"
-              stroke="#88C701" stroke-linecap="round" />
-            <path
-              d="M36.7675 -197.09C30.1438 -174.46 25.9664 -151.3 31.1458 -127.828C36.6616 -102.831 55.5084 -83.0153 72.6186 -65.1412C91.7415 -45.1647 112.634 -27.1914 132.972 -8.50062C149.969 7.12022 175.079 26.6255 178.369 51.4281C181.508 75.0945 170.629 99.488 160.125 120.001C156.349 127.375 149.138 135.619 148.564 144.238C147.857 154.836 148.635 164.741 154.132 174.043C160.148 184.224 168.21 193.845 176.566 202.151C201.445 226.883 230.372 247.667 258.557 268.338C282.403 285.828 307.559 301.602 331.32 319.145C334.74 321.671 339.193 324.731 341.29 328.585C344.374 334.252 345.276 341.625 346.541 347.837C349.323 361.509 352.124 375.477 353.541 389.362C355.581 409.356 363.878 430.061 375.02 446.745C390.424 469.814 413.867 484.647 437.176 498.719C449.287 506.031 465.675 512.474 475.891 522.691"
-              stroke="#88C701" stroke-linecap="round" />
-            <path
-              d="M88.3179 -188.499C81.9222 -166.723 74.0752 -144.256 75.9609 -121.198C79.0341 -83.6224 101.542 -48.8413 119.29 -16.6679C131.435 5.34919 143.833 27.2073 155.035 49.731C160.198 60.1127 166.011 71.2475 163.839 83.2486C161.107 98.3394 150.047 111.191 142.519 124.085C134.343 138.09 125.922 154.183 123.957 170.543C121.368 192.095 133.192 214.718 144.959 231.851C165.254 261.403 194.275 285.508 223.555 305.674C255.111 327.407 289.284 342.537 324.002 358.231C334.247 362.863 340.033 365.636 349.671 370.694C351.88 371.854 361.902 375.869 363.035 379.816C363.865 382.706 362.993 385.831 362.823 388.832C362.32 397.724 361.55 406.594 361.55 415.508C361.55 430.813 364.493 444.673 372.688 457.777C387.632 481.672 411.465 499.935 424.873 524.706C433.482 540.61 455.111 541.647 471.119 546.556"
-              stroke="#88C701" stroke-linecap="round" />
-          </g>
-        </svg>
 
+      <div class="d-flex flex-wrap pt-44 gap-17 justify-content-center">
+        <div class="three_box">
+          <div class="small_circle d-flex justify-content-center align-items-center">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
+                fill="#88C701" />
+            </svg>
+
+          </div>
+          <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Creative Solutions</h3>
+          <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Landscape Design & Build</h4>
+        </div>
+        <div class="three_box">
+          <div class="small_circle d-flex justify-content-center align-items-center">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6 9.90955C6 11.5008 6.63214 13.027 7.75736 14.1522C8.88258 15.2774 10.4087 15.9095 12 15.9095C13.5913 15.9095 15.1174 15.2774 16.2426 14.1522C17.3679 13.027 18 11.5008 18 9.90955C18 8.31825 17.3679 6.79212 16.2426 5.66691C15.1174 4.54169 13.5913 3.90955 12 3.90955C10.4087 3.90955 8.88258 4.54169 7.75736 5.66691C6.63214 6.79212 6 8.31825 6 9.90955Z"
+                stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M12.0003 15.9095L15.4003 21.7995L16.9983 18.5665L20.5963 18.7985L17.1963 12.9095M6.80234 12.9095L3.40234 18.7995L7.00034 18.5665L8.59834 21.7985L11.9983 15.9095"
+                stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+
+          </div>
+          <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Customer Service</h3>
+          <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Our team is on call to deliver excellence to
+            our clients</h4>
+        </div>
+        <div class="three_box">
+          <div class="small_circle d-flex justify-content-center align-items-center">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
+                fill="#88C701" />
+            </svg>
+
+          </div>
+          <h3 class="mb-0 fw-500 fs-20 line-23 black pt-28">Peace of mind</h3>
+          <h4 class="poppins mb-0 fw-400 fs-16 line-24 light_black pt-11">Proven Proactive Approach</h4>
+        </div>
       </div>
-      <div class="elips_position_2 d-none d-lg-block">
-        <svg width="228" height="516" viewBox="0 0 228 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    </div>
+    <div class="elips_position d-none d-xl-block">
+      <svg width="316" height="516" viewBox="0 0 316 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+          <path
+            d="M11.9486 -183.726C13.5886 -181.102 8.55677 -174.162 7.59974 -171.634C4.74828 -164.103 2.69159 -156.68 2.19025 -148.617C1.50006 -137.517 -0.0450963 -125.04 2.08418 -114.039C4.88617 -99.5619 18.9606 -85.8276 28.124 -75.1647C51.8633 -47.5408 84.7945 -30.8907 109.744 -4.5761C128.283 14.9776 138.299 38.8592 129.101 65.164C123.186 82.0817 114.82 98.1637 109.797 115.387C105.053 131.651 109.159 146.325 117.646 160.732C135.595 191.201 163.387 217.731 192 238.109C227.52 263.405 268.861 276.67 311.91 281.385C326.236 282.953 340.458 284.249 354.55 287.431C361.216 288.936 369.056 290.704 374.703 294.961C384.488 302.339 387.253 318.532 390.136 329.487C396.32 352.987 401.899 378.001 411.933 400.181C417.436 412.347 424.928 423.991 432.616 434.866C438.659 443.413 445.382 451.928 452.769 459.368C471.365 478.094 458.158 462.853 477.802 480.687"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M36.7675 -197.09C30.1438 -174.46 25.9664 -151.3 31.1458 -127.828C36.6616 -102.831 55.5084 -83.0153 72.6186 -65.1412C91.7415 -45.1647 112.634 -27.1914 132.972 -8.50062C149.969 7.12022 175.079 26.6255 178.369 51.4281C181.508 75.0945 170.629 99.488 160.125 120.001C156.349 127.375 149.138 135.619 148.564 144.238C147.857 154.836 148.635 164.741 154.132 174.043C160.148 184.224 168.21 193.845 176.566 202.151C201.445 226.883 230.372 247.667 258.557 268.338C282.403 285.828 307.559 301.602 331.32 319.145C334.74 321.671 339.193 324.731 341.29 328.585C344.374 334.252 345.276 341.625 346.541 347.837C349.323 361.509 352.124 375.477 353.541 389.362C355.581 409.356 363.878 430.061 375.02 446.745C390.424 469.814 413.867 484.647 437.176 498.719C449.287 506.031 465.675 512.474 475.891 522.691"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M88.3179 -188.499C81.9222 -166.723 74.0752 -144.256 75.9609 -121.198C79.0341 -83.6224 101.542 -48.8413 119.29 -16.6679C131.435 5.34919 143.833 27.2073 155.035 49.731C160.198 60.1127 166.011 71.2475 163.839 83.2486C161.107 98.3394 150.047 111.191 142.519 124.085C134.343 138.09 125.922 154.183 123.957 170.543C121.368 192.095 133.192 214.718 144.959 231.851C165.254 261.403 194.275 285.508 223.555 305.674C255.111 327.407 289.284 342.537 324.002 358.231C334.247 362.863 340.033 365.636 349.671 370.694C351.88 371.854 361.902 375.869 363.035 379.816C363.865 382.706 362.993 385.831 362.823 388.832C362.32 397.724 361.55 406.594 361.55 415.508C361.55 430.813 364.493 444.673 372.688 457.777C387.632 481.672 411.465 499.935 424.873 524.706C433.482 540.61 455.111 541.647 471.119 546.556"
+            stroke="#88C701" stroke-linecap="round" />
+        </g>
+      </svg>
+
+    </div>
+    <div class="elips_position_2 d-none d-xl-block">
+      <svg width="303" height="516" viewBox="0 0 303 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+          <path
+            d="M290.896 729.691C289.26 727.072 294.281 720.146 295.236 717.624C298.082 710.109 300.134 702.701 300.634 694.654C301.323 683.577 302.865 671.126 300.74 660.147C297.944 645.7 283.899 631.994 274.754 621.353C251.063 593.786 218.2 577.17 193.302 550.909C174.801 531.396 164.806 507.563 173.984 481.312C179.887 464.429 188.236 448.38 193.249 431.192C197.983 414.962 193.886 400.318 185.416 385.941C167.503 355.535 139.769 329.059 111.215 308.723C75.7678 283.478 34.5114 270.241 -8.4493 265.536C-22.7452 263.97 -36.9385 262.678 -51.0012 259.503C-57.6536 258 -65.4773 256.236 -71.1129 251.987C-80.8776 244.625 -83.6372 228.465 -86.5141 217.533C-92.6857 194.081 -98.2529 169.118 -108.266 146.983C-113.758 134.843 -121.235 123.223 -128.907 112.37C-134.938 103.84 -141.647 95.3426 -149.019 87.9186C-167.577 69.2312 -154.397 84.4403 -174 66.6427"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M266.128 743.028C272.738 720.444 276.907 697.332 271.738 673.908C266.234 648.962 247.425 629.187 230.35 611.35C211.267 591.414 190.417 573.478 170.121 554.826C153.159 539.237 128.101 519.772 124.817 495.02C121.684 471.402 132.541 447.059 143.024 426.588C146.792 419.229 153.988 411.002 154.561 402.401C155.266 391.824 154.49 381.941 149.004 372.657C143.001 362.497 134.956 352.896 126.617 344.606C101.789 319.926 72.921 299.185 44.7943 278.556C20.997 261.102 -4.10698 245.36 -27.8192 227.853C-31.2328 225.333 -35.6762 222.279 -37.7692 218.432C-40.8462 212.777 -41.7472 205.419 -43.0088 199.221C-45.7859 185.576 -48.581 171.637 -49.9949 157.78C-52.0309 137.828 -60.3111 117.165 -71.4297 100.515C-86.8024 77.494 -110.197 62.6917 -133.458 48.6481C-145.544 41.3511 -161.898 34.9214 -172.094 24.7259"
+            stroke="#88C701" stroke-linecap="round" />
           <path
             d="M214.683 734.454C221.066 712.723 228.897 690.302 227.015 667.292C223.948 629.793 201.487 595.084 183.775 562.976C171.655 541.004 159.282 519.191 148.103 496.714C142.951 486.353 137.15 475.241 139.318 463.265C142.044 448.205 153.082 435.38 160.594 422.512C168.753 408.536 177.157 392.477 179.118 376.15C181.701 354.643 169.901 332.066 158.159 314.968C137.906 285.476 108.944 261.421 79.7239 241.296C48.2334 219.608 14.1305 204.51 -20.5166 188.847C-30.7405 184.226 -36.5144 181.458 -46.1325 176.41C-48.3374 175.253 -58.3385 171.246 -59.4696 167.307C-60.2976 164.423 -59.4275 161.304 -59.2579 158.309C-58.7557 149.436 -57.9877 140.584 -57.9877 131.688C-57.9877 116.415 -60.9239 102.583 -69.1021 89.5065C-84.0158 65.66 -107.8 47.4349 -121.181 22.7148C-129.771 6.84357 -151.356 5.80865 -167.331 0.909542"
             stroke="#88C701" stroke-linecap="round" />
-        </svg>
+        </g>
+      </svg>
 
-      </div>
-    </section>
 
-    <section class="px-lg-3 d -none overflow-hidden" id="issue">
-      <div class="container max-w-1140">
-        <div class="row pt-124  d -none">
-          <div class="col-xl-6 col-12 j-c-c">
-            <img class="w_100 cursor" src="./assets/images/twoimg.png" alt="twoimg">
+    </div>
+  </section>
+
+  <section class="  d -none overflow-hidden" id="">
+    <div class="container max-w-1140 ">
+      <div class="row pt-124  d -none">
+        <div class="col-xl-6 col-12 j-c-c">
+          <img class="w_100 cursor" src="./assets/images/twoimg.png" alt="twoimg">
+        </div>
+        <div class="col-xl-6 col-12 d-flex flex-column justify-content-center">
+          <div class="j-c-c">
+            <p class="libre mb-0 fw-400 fs-36 black Ever_green line-42">Evergreen Landscapes is a full-service
+              landscaping company servicing the <span class="fst-italic fw-500 green ">Chicago</span> land area.</p>
+            <p class="Ever_green poppins fw-400 line-24 black fs-16 mb-0 pt-18 para_4">Our team is dedicated to giving
+              our clients the very best of landscaping in a safe and professional manner. </p>
+            <p class="Ever_green poppins pt-11 fw-400 black line-24 fs-16 mb-0 para_4">
+              Founded in 2012, Evergreen Landscapes (formerly David's Lawn Care) has come a long way from its
+              beginnings. When we first started out, our passion for providing quality and affordable services to our
+              valuable clients drove us to take action and gave us the momentum to turn hard work and inspiration into
+              a
+              growing landscaping company. We now serve customers all over the Chicago land area and are thrilled to
+              be
+              a part of the landscaping industry.
+
+            </p>
+            <p class="Ever_green poppins pt-11 fw-400 line-24 fs-16 mb-0 para_4 black"> We hope you enjoy our services
+              as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate
+              to
+              contact us.</p>
           </div>
-          <div class="col-xl-6 col-12 d-flex flex-column justify-content-center">
-            <div class="j-c-c">
-              <p class="libre mb-0 fw-400 fs-36 black Ever_green line-42">Evergreen Landscapes is a full-service
-                landscaping company servicing the <span class="fst-italic fw-500 green ">Chicago</span> land area.</p>
-              <p class="Ever_green poppins fw-400 line-24 black fs-16 mb-0 pt-18 para_4">Our team is dedicated to giving
-                our clients the very best of landscaping in a safe and professional manner. </p>
-              <p class="Ever_green poppins pt-11 fw-400 black line-24 fs-16 mb-0 para_4">
-                Founded in 2012, Evergreen Landscapes (formerly David's Lawn Care) has come a long way from its
-                beginnings. When we first started out, our passion for providing quality and affordable services to our
-                valuable clients drove us to take action and gave us the momentum to turn hard work and inspiration into
-                a
-                growing landscaping company. We now serve customers all over the Chicago land area and are thrilled to
-                be
-                a part of the landscaping industry.
+        </div>
+      </div>
+      <div class="pt-125 d-flex justify-content-center d- none">
+        <h4 class="fw-400 mb-0 fs-36 black line-42 libre">Our Services</h4>
+      </div>
 
-              </p>
-              <p class="Ever_green poppins pt-11 fw-400 line-24 fs-16 mb-0 para_4 black"> We hope you enjoy our services
-                as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate
-                to
-                contact us.</p>
+      <div class="d-flex row   d -none justify_c">
+        <div class="col-xl-4 cursor col-md-6 col-12 j_c_c mt-37 ">
+          <div class="position-relative three_img overflow-hidden">
+            <div class="d-flex  justify-content-center object_1">
+              <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
+            </div>
+            <div
+              class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
+              <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
+              <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
+                Snow Plowing <br>
+                Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
             </div>
           </div>
         </div>
-        <div class="pt-125 d-flex justify-content-center d- none">
-          <h4 class="fw-400 mb-0 fs-36 black line-42 libre">Our Services</h4>
-        </div>
-
-        <div class="d-flex row   d -none justify_c">
-          <div class="col-xl-4 cursor col-md-6 col-12 j_c_c mt-37 ">
-            <div class="position-relative three_img overflow-hidden">
-              <div class="d-flex  justify-content-center object_1">
-                <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
-              </div>
-              <div
-                class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
-                <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
-                <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
-                  Snow Plowing <br>
-                  Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
-              </div>
+        <div class="col-xl-4  cursor col-md-6 col-12 j_c_c mt-37">
+          <div class="position-relative three_img_2 overflow-hidden">
+            <div class="d-flex  justify-content-center object_1">
+              <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
             </div>
-          </div>
-          <div class="col-xl-4  cursor col-md-6 col-12 j_c_c mt-37">
-            <div class="position-relative three_img_2 overflow-hidden">
-              <div class="d-flex  justify-content-center object_1">
-                <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
-              </div>
-              <div
-                class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
-                <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
-                <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
-                  Snow Plowing <br>
-                  Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 cursor col-md-6 col-12 j_c_c mt-37">
-            <div class="position-relative three_img_3 overflow-hidden">
-              <div class="d-flex  justify-content-center object_1">
-                <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
-              </div>
-              <div
-                class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
-                <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
-                <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
-                  Snow Plowing <br>
-                  Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
-              </div>
+            <div
+              class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
+              <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
+              <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
+                Snow Plowing <br>
+                Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
             </div>
           </div>
         </div>
-
-      </div>
-
-
-      </div>
-      <div class="d-flex justify-content-center d -none pt-111">
-        <h4 class="libre fw-400 mb-0 line-42 fs-36 black ">Gallery</h4>
-      </div>
-
-      <div class="d-flex gap-16 overflow-x-scroll pt-45 d -none">
-        <div class="cursor">
-          <img class=" " src="./assets/images/Frame1.png" alt="Frame1">
-        </div>
-        <div class="cursor">
-          <img src="./assets/images/Frame2.png" alt="Frame2">
-        </div>
-        <div class="cursor">
-          <img src="./assets/images/Frame3.png" alt="Frame2">
-        </div>
-        <div class="cursor">
-          <img src="./assets/images/Frame4.png" alt="Frame2">
+        <div class="col-xl-4 cursor col-md-6 col-12 j_c_c mt-37">
+          <div class="position-relative three_img_3 overflow-hidden">
+            <div class="d-flex  justify-content-center object_1">
+              <h4 class="mb-0 libre fw-400 fs-22 line-24 white pt-365 snaw_shov">Commercial Property Services</h4>
+            </div>
+            <div
+              class="hover_box_1 position-absolute_3  d-flex justify-content-center flex-column align-items-center text-center">
+              <h5 class="libre fw-400 mb-0 fs-22 line-24 white ">Winter services</h5>
+              <p class="mb-0 para-2 pt-11 fs-16 line-24 poppins  ">Snow Shoveling <br>
+                Snow Plowing <br>
+                Cleaning of Walkways & Sidewalks Ice Melt Applications</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="d-flex gap-16 overflow-x-scroll pt-15 d -none">
-        <div>
-          <img class="cursor" src="./assets/images/frame6.png" alt="Frame1">
-        </div>
-        <div>
-          <img class="corsor" src="./assets/images/frame8.png" alt="Frame2">
-        </div>
-        <div>
-          <img class="cursor" src="./assets/images/frame9.png" alt="Frame2">
-        </div>
 
+
+
+
+    </div>
+    
+ 
+
+    </div>
+  </section>
+  <section class="overflow-hidden" id="schol">
+    <div  >
+       <div class="d-flex  justify-content-center d -none pt-111">
+      <h4 class="libre fw-400 mb-0 line-42 fs-36 black ">Gallery</h4>
+    </div>
+
+    <div class=" image_5 mt-45" dir="rtl">
+      <div class="pe-4">
+        <img class="w-100 cursor image_hight " src="./assets/images/Frame1.png" alt="Frame1">
       </div>
+      <div class="pe-4">
+        <img class="w-100 cursor image_hight_2" src="./assets/images/Frame2.png" alt="Frame2">
+      </div>
+      <div class="pe-4">
+        <img class="w-100 cursor image_hight_3" src="./assets/images/Frame3.png" alt="Frame2">
+      </div>
+      <div class="pe-4">
+        <img class="w-100 cursor image_hight_4" src="./assets/images/Frame4.png" alt="Frame2">
+      </div>
+    </div>
+    <div class=" image_6 pt-15">
+      <div class="pe-4">
+        <img class="cursor  image_hight_5  " src="./assets/images/frame6.png" alt="Frame1">
+      </div>
+      <div class="pe-4">
+        <img class="corsor image_hight_6" src="./assets/images/frame8.png" alt="Frame2">
+      </div>
+      <div class="pe-4">
+        <img class="cursor  image_hight_7" src="./assets/images/frame9.png" alt="Frame2">
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <section class="" id="issue">
+    <div class="container  ">
       <div class="d-flex justify-content-center pt-112 d -none">
-        <h3 class="mb-0 libre fw-400 fs-36 line-42 fs-36 black">Check out our <span
-            class="fw-500 fst-italic green">happy
+        <h3 class="mb-0 libre fw-400 fs-36 line-42 fs-36 black">Check out our <span class="fw-500 fst-italic green">happy
             clients</span></h3>
       </div>
-      <div class=" responsive mb-176 px-1 d- none d-flex justify-content-center ">
-        <div class="slick_box mt-39 mx-1  cursor">
-          <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-              fill="#88C701" />
-          </svg>
-          <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">Evergreen provided high quality
-            service in a timely manner for me. David was a pleasure to deal with, his honesty and customer service is
-            unparalleled. If you want the job done right, use Evergreen!</p>
-          <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">E. B.</h4>
-          <img src="./assets/images/star.png" alt="star">
+  
+  
+      <div class="    row mb-176   ">
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="  slick_box    mt-39   cursor">
+            <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
+                fill="#88C701" />
+            </svg>
+            <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">Evergreen provided high quality
+              service in a timely manner for me. David was a pleasure to deal with, his honesty and customer service is
+              unparalleled. If you want the job done right, use Evergreen!</p>
+            <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">E. B.</h4>
+            <img src="./assets/images/star.png" alt="star">
+          </div>
         </div>
-        <div class="slick_box mt-39 mx-1 cursor">
-          <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-              fill="#88C701" />
-          </svg>
-          <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">It is quite clear that Dave truly
-            cares about his clients and about the work he does for them. If you hire his service, your lawn care goals
-            and
-            ambitions will become is own, and he will ensure you are not just satisfied but thrilled.</p>
-          <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">S. K.</h4>
-          <img src="./assets/images/star.png" alt="star">
+
+
+        <div class="col-lg-4 col-md-6 col-12 ">
+          <div class="slick_box  mt-39   cursor">
+            <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
+                fill="#88C701" />
+            </svg>
+            <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">It is quite clear that Dave truly
+              cares about his clients and about the work he does for them. If you hire his service, your lawn care goals
+              and
+              ambitions will become is own, and he will ensure you are not just satisfied but thrilled.</p>
+            <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">S. K.</h4>
+            <img src="./assets/images/star.png" alt="star">
+          </div>
+
         </div>
-        <div class="slick_box mt-39 mx-1 cursor ">
-          <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-              fill="#88C701" />
-          </svg>
-          <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">Evergreen Landscapes does amazing
-            work and they are very well priced. I definitely will use them for all my landscaping needs.</p>
-          <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">Y. C.</h4>
-          <img src="./assets/images/star.png" alt="star">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="slick_box mt-39   cursor ">
+            <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
+                fill="#88C701" />
+            </svg>
+            <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">Evergreen Landscapes does amazing
+              work and they are very well priced. I definitely will use them for all my landscaping needs.</p>
+            <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">Y. C.</h4>
+            <img src="./assets/images/star.png" alt="star">
+          </div>
         </div>
-        <div class="slick_box mt-39 mx-1 cursor">
-          <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-              fill="#88C701" />
-          </svg>
-          <p class="mb-0 poppins fw-400 fs-16 line-24 fst-italic black para_5 pt-15">Evergreen provided high quality
-            service in a timely manner for me. David was a pleasure to deal with, his honesty and customer service is
-            unparalleled. If you want the job done right, use Evergreen!</p>
-          <h4 class="mb-0 libre fw-400 fs-16 line-25 black pt-15">E. B.</h4>
-          <img src="./assets/images/star.png" alt="star">
-        </div>
+
+
       </div>
-    </section>
-    <section class="bg_image position-relative d- none" id="schol">
-      <div class="container max-w-1140">
-        <div class="row  lg_center">
-          <div class="col-lg-6 col-12 d-flex lg_center justify-content-lg-center">
-            <div class="d-flex flex-column">
-              <h3 class="mb-0 libre fw-400 fs-36 line-49 black pt-66">Contact Us</h3>
-              <div>
-                <div class="d-flex align-items-center gap-16 pt-20">
-                  <a href="tel:+6494461709"> <img class="cursor trasition_1" src="./assets/images/contact.png"
-                      alt="contact"></a>
-                  <h3 class="mb-0 poppins fs-16 fw-400 line-25 number_1">(312) 610-9790</h3>
-                </div>
-                <div class="d-flex align-items-center gap-16 pt-11">
-                  <a href="mailto:?subject=test&body">
-                    <img class="cursor trasition_1" src="./assets/images/message.png" alt="contact">
-                  </a>
-                  <h3 class="mb-0 poppins fs-16 fw-400 line-25 number_1">info@evergreenlandscapesco.com</h3>
-                </div>
-                <h5 class="libre fw-400 fs-16 line-25 black mb-0 pt-29">Hours</h5>
-                <h3 class="mb-0 poppins fs-16 line-25 fw-400 number_1 pt_4 mon_fri ">MON-FRI: 9AM - 5PM
-                  SAT-SUN: CLOSED</h3>
-                <p class="poppins mb-0 fs-16 fw-400 line-24 contact_us pt-21 fst-italic pb-79">Contact us today for a
-                  free
-                  no obligation consultation</p>
+    </div>
+  </section>
+  <section class="bg_image position-relative d- none" id="curric">
+    <div class="container max-w-1140">
+      <div class="row  lg_center">
+        <div class="col-lg-6 z_20 col-12 d-flex lg_center justify-content-lg-center">
+          <div class="d-flex flex-column">
+            <h3 class="mb-0 libre fw-400 fs-36 line-49 black pt-66">Contact Us</h3>
+            <div>
+              <div class="d-flex align-items-center z_20 gap-16 pt-20">
+                <a href="tel:+6494461709"> <img class="cursor trasition_1" src="./assets/images/contact.png"
+                    alt="contact"></a>
+                <a href="tel:+6494461709">
+                  <h3 class="mb-0 poppins fs-16 cursor fw-400 line-25 number_1">(312) 610-9790</h3>
+                </a>
               </div>
+              <div class="d-flex align-items-center z_20 gap-16 pt-11">
+                <a href="mailto:?subject=test&body" class="cursor">
+                  <img class="cursor trasition_1" src="./assets/images/message.png" alt="contact">
+                </a>
+                <a href="mailto:?subject=test&body">
+                  <h3 class="mb-0 poppins fs-16 fw-400 line-25 cursor number_1">info@evergreenlandscapesco.com</h3>
+                </a>
+              </div>
+              <h5 class="libre fw-400 fs-16 line-25 black mb-0 pt-29">Hours</h5>
+              <h3 class="mb-0 poppins fs-16 line-25 fw-400 number_1 pt_4 mon_fri ">MON-FRI: 9AM - 5PM
+                SAT-SUN: CLOSED</h3>
+              <p class="poppins mb-0 fs-16 fw-400 line-24 contact_us pt-21 fst-italic pb-79">Contact us today for a
+                free
+                no obligation consultation</p>
             </div>
-          </div>
-          <div class="position_box col-6 d -none    ">
-            <h4 class="mb-0 libre fw-400 fs-24 line-38 black">Contact us! someone from <span
-                class="green fw-500 fst-italic ">Evergreen</span> will reach out you soon</h4>
-            <div class="input_1 cursor mt-20">
-              <input type="text" class="poppins fw-400 fs-16 line-16 black " placeholder="Jhone Doe"
-                style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
-            </div>
-            <div class="input_1 cursor mt-9">
-              <input type="number" class="poppins fw-400 fs-16 line-16 black" placeholder="Phone"
-                style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
-            </div>
-            <div class="input_1 cursor mt-9">
-              <input type="email" class="poppins fw-400 fs-16 line-16 black" placeholder="Email"
-                style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
-            </div>
-            <div class="input_1 cursor  mt-9">
-              <input type="text" class="poppins fw-400 fs-16 line-16 black" placeholder="Address"
-                style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
-            </div>
-            <div class="input_2 cursor mt-9">
-              <textarea rows="5" type="text" class="poppins fw-400 fs-16 line-16 black" placeholder="Message"
-                style="list-style-type: none;  color: black ; border: 0;resize: none; width: 100%; outline: none;"></textarea>
-              <!-- <textarea name=""   rows=""></textarea> -->
-            </div>
-            <button class="send_message poppins fw-500 fs-16 line-20 white w-100 mt-32">Send Message</button>
           </div>
         </div>
-
+        <div class="position_box col-6 d -none    ">
+          <h4 class="mb-0 libre fw-400 fs-24 line-38 black">Contact us! someone from <span
+              class="green fw-500 fst-italic ">Evergreen</span> will reach out you soon</h4>
+          <div class="input_1 cursor mt-20">
+            <input type="text" class="poppins fw-400 fs-16 line-16 black " placeholder="Jhone Doe"
+              style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
+          </div>
+          <div class="input_1 cursor mt-9">
+            <input type="number" class="poppins fw-400 fs-16 line-16 black" placeholder="Phone"
+              style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
+          </div>
+          <div class="input_1 cursor mt-9">
+            <input type="email" class="poppins fw-400 fs-16 line-16 black" placeholder="Email"
+              style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
+          </div>
+          <div class="input_1 cursor  mt-9">
+            <input type="text" class="poppins fw-400 fs-16 line-16 black" placeholder="Address"
+              style="list-style-type: none; color: black ; border: 0; width: 100%; outline: none;">
+          </div>
+          <div class="input_2 cursor mt-9">
+            <textarea rows="5" type="text" class="poppins fw-400 fs-16 line-16 black" placeholder="Message"
+              style="list-style-type: none;  color: black ; border: 0;resize: none; width: 100%; outline: none;"></textarea>
+            <!-- <textarea name=""   rows=""></textarea> -->
+          </div>
+          <button class="send_message poppins fw-500 fs-16 line-20 white w-100 mt-32">Send Message</button>
+        </div>
       </div>
-      <div class="elips_position d-none d-lg-block">
-        <svg width="316" height="516" viewBox="0 0 316 516" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g opacity="0.5">
-            <path
-              d="M11.9486 -183.726C13.5886 -181.102 8.55677 -174.162 7.59974 -171.634C4.74828 -164.103 2.69159 -156.68 2.19025 -148.617C1.50006 -137.517 -0.0450963 -125.04 2.08418 -114.039C4.88617 -99.5619 18.9606 -85.8276 28.124 -75.1647C51.8633 -47.5408 84.7945 -30.8907 109.744 -4.5761C128.283 14.9776 138.299 38.8592 129.101 65.164C123.186 82.0817 114.82 98.1637 109.797 115.387C105.053 131.651 109.159 146.325 117.646 160.732C135.595 191.201 163.387 217.731 192 238.109C227.52 263.405 268.861 276.67 311.91 281.385C326.236 282.953 340.458 284.249 354.55 287.431C361.216 288.936 369.056 290.704 374.703 294.961C384.488 302.339 387.253 318.532 390.136 329.487C396.32 352.987 401.899 378.001 411.933 400.181C417.436 412.347 424.928 423.991 432.616 434.866C438.659 443.413 445.382 451.928 452.769 459.368C471.365 478.094 458.158 462.853 477.802 480.687"
-              stroke="#88C701" stroke-linecap="round" />
-            <path
-              d="M36.7675 -197.09C30.1438 -174.46 25.9664 -151.3 31.1458 -127.828C36.6616 -102.831 55.5084 -83.0153 72.6186 -65.1412C91.7415 -45.1647 112.634 -27.1914 132.972 -8.50062C149.969 7.12022 175.079 26.6255 178.369 51.4281C181.508 75.0945 170.629 99.488 160.125 120.001C156.349 127.375 149.138 135.619 148.564 144.238C147.857 154.836 148.635 164.741 154.132 174.043C160.148 184.224 168.21 193.845 176.566 202.151C201.445 226.883 230.372 247.667 258.557 268.338C282.403 285.828 307.559 301.602 331.32 319.145C334.74 321.671 339.193 324.731 341.29 328.585C344.374 334.252 345.276 341.625 346.541 347.837C349.323 361.509 352.124 375.477 353.541 389.362C355.581 409.356 363.878 430.061 375.02 446.745C390.424 469.814 413.867 484.647 437.176 498.719C449.287 506.031 465.675 512.474 475.891 522.691"
-              stroke="#88C701" stroke-linecap="round" />
-            <path
-              d="M88.3179 -188.499C81.9222 -166.723 74.0752 -144.256 75.9609 -121.198C79.0341 -83.6224 101.542 -48.8413 119.29 -16.6679C131.435 5.34919 143.833 27.2073 155.035 49.731C160.198 60.1127 166.011 71.2475 163.839 83.2486C161.107 98.3394 150.047 111.191 142.519 124.085C134.343 138.09 125.922 154.183 123.957 170.543C121.368 192.095 133.192 214.718 144.959 231.851C165.254 261.403 194.275 285.508 223.555 305.674C255.111 327.407 289.284 342.537 324.002 358.231C334.247 362.863 340.033 365.636 349.671 370.694C351.88 371.854 361.902 375.869 363.035 379.816C363.865 382.706 362.993 385.831 362.823 388.832C362.32 397.724 361.55 406.594 361.55 415.508C361.55 430.813 364.493 444.673 372.688 457.777C387.632 481.672 411.465 499.935 424.873 524.706C433.482 540.61 455.111 541.647 471.119 546.556"
-              stroke="#88C701" stroke-linecap="round" />
-          </g>
-        </svg>
 
-      </div>
-      <div class="elips_position_2 d-none d-lg-block">
-        <svg width="228" height="516" viewBox="0 0 228 516" fill="none" xmlns="http://www.w3.org/2000/svg">
+    </div>
+    <div class="elips_position d-none d-xl-block">
+      <svg width="507" height="494" viewBox="0 0 507 494" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
           <path
-            d="M214.683 734.454C221.066 712.723 228.897 690.302 227.015 667.292C223.948 629.793 201.487 595.084 183.775 562.976C171.655 541.004 159.282 519.191 148.103 496.714C142.951 486.353 137.15 475.241 139.318 463.265C142.044 448.205 153.082 435.38 160.594 422.512C168.753 408.536 177.157 392.477 179.118 376.15C181.701 354.643 169.901 332.066 158.159 314.968C137.906 285.476 108.944 261.421 79.7239 241.296C48.2334 219.608 14.1305 204.51 -20.5166 188.847C-30.7405 184.226 -36.5144 181.458 -46.1325 176.41C-48.3374 175.253 -58.3385 171.246 -59.4696 167.307C-60.2976 164.423 -59.4275 161.304 -59.2579 158.309C-58.7557 149.436 -57.9877 140.584 -57.9877 131.688C-57.9877 116.415 -60.9239 102.583 -69.1021 89.5065C-84.0158 65.66 -107.8 47.4349 -121.181 22.7148C-129.771 6.84357 -151.356 5.80865 -167.331 0.909542"
+            d="M153.45 -121.732C155.457 -119.376 163.592 -122.08 166.29 -122.23C174.331 -122.676 182.028 -122.398 189.867 -120.443C200.658 -117.752 213.02 -115.461 222.866 -110.112C235.823 -103.073 244.671 -85.5104 252.072 -73.557C271.247 -42.5896 277.186 -6.16956 294.747 25.5562C307.796 49.1308 327.543 65.8851 355.397 65.0524C373.311 64.5169 391.167 61.3931 409.104 61.8C426.042 62.1843 438.793 70.5258 449.967 82.9638C473.601 109.269 490.511 143.77 501.306 177.198C514.707 218.695 514.881 262.112 506.388 304.577C503.562 318.708 500.506 332.659 499.288 347.054C498.712 353.863 498.032 361.871 500.388 368.54C504.469 380.095 519.073 387.616 528.648 393.67C549.187 406.656 571.352 419.522 589.472 435.78C599.41 444.697 608.252 455.353 616.3 465.964C622.626 474.304 628.716 483.283 633.58 492.57C645.823 515.949 635.277 498.76 646.354 522.868"
             stroke="#88C701" stroke-linecap="round" />
-        </svg>
+          <path
+            d="M133.22 -102.102C156.795 -101.589 180.135 -98.5843 200.951 -86.5645C223.119 -73.7641 236.325 -49.8171 248.204 -28.1116C261.48 -3.85288 272.313 21.4889 283.997 46.5177C293.762 67.4354 304.782 97.2604 327.437 107.88C349.053 118.014 375.592 115.001 398.319 111.175C406.488 109.8 416.523 105.412 424.914 107.465C435.232 109.989 444.44 113.719 451.65 121.766C459.542 130.573 466.282 141.162 471.681 151.635C487.754 182.816 498.841 216.666 510.046 249.774C519.526 277.785 526.976 306.528 536.533 334.475C537.909 338.498 539.483 343.666 542.525 346.829C546.997 351.478 553.755 354.563 559.295 357.642C571.491 364.421 583.964 371.305 596.774 376.845C615.22 384.822 632.457 398.98 645.003 414.636C662.349 436.282 669.418 463.108 675.802 489.576C679.119 503.329 680.318 520.897 686.976 533.719"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M125.858 -50.3613C148.549 -49.8891 172.337 -50.5921 193.751 -41.8377C228.649 -27.571 255.018 4.38161 280.338 31.0093C297.665 49.2313 314.764 67.6464 332.858 85.1214C341.199 93.1761 350.061 102.078 362.158 103.627C377.37 105.575 392.96 98.9081 407.524 95.6213C423.343 92.0514 441.226 88.8783 457.417 91.9408C478.745 95.9749 496.747 114.073 509.532 130.46C531.584 158.726 545.81 193.667 556.203 227.667C567.403 264.309 571.517 301.454 576.006 339.29C577.33 350.455 578.229 356.808 580.144 367.523C580.583 369.979 581.387 380.745 584.808 383.017C587.313 384.68 590.555 384.791 593.468 385.535C602.097 387.737 610.787 389.68 619.285 392.369C633.877 396.987 646.203 403.974 656.224 415.74C674.497 437.198 684.718 465.43 704.29 485.687C716.855 498.692 711.318 519.627 711.169 536.37"
+            stroke="#88C701" stroke-linecap="round" />
+        </g>
+      </svg>
+
+
+    </div>
+    <div class="elips_position_2 d-none d-xl-block">
+      <svg width="239" height="494" viewBox="0 0 239 494" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.5">
+          <path
+            d="M226.853 678.282C225.213 675.658 230.245 668.717 231.202 666.19C234.053 658.659 236.11 651.236 236.612 643.173C237.302 632.073 238.847 619.596 236.718 608.595C233.916 594.118 219.841 580.384 210.678 569.721C186.938 542.097 154.007 525.447 129.058 499.132C110.519 479.578 100.503 455.697 109.701 429.392C115.616 412.474 123.981 396.392 129.005 379.169C133.749 362.904 129.643 348.231 121.156 333.824C103.206 303.355 75.415 276.825 46.8019 256.447C11.2819 231.151 -30.0595 217.886 -73.1086 213.171C-87.4338 211.602 -101.656 210.307 -115.748 207.125C-122.414 205.62 -130.254 203.852 -135.901 199.595C-145.686 192.217 -148.451 176.024 -151.334 165.069C-157.518 141.569 -163.097 116.555 -173.131 94.3745C-178.635 82.2092 -186.126 70.565 -193.815 59.6901C-199.857 51.1429 -206.58 42.6275 -213.968 35.1883C-232.563 16.4624 -219.356 31.7027 -239 13.8685"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M202.034 691.646C208.658 669.016 212.835 645.856 207.656 622.384C202.14 597.387 183.293 577.571 166.183 559.697C147.06 539.721 126.168 521.747 105.83 503.057C88.8332 487.436 63.7229 467.931 60.4328 443.128C57.2934 419.462 68.1728 395.068 78.6766 374.555C82.4523 367.181 89.6635 358.937 90.2381 350.318C90.9446 339.72 90.1665 329.816 84.6695 320.513C78.6536 310.332 70.5922 300.711 62.236 292.405C37.3565 267.673 8.42956 246.889 -19.755 226.218C-43.6013 208.728 -68.7569 192.954 -92.518 175.411C-95.9387 172.885 -100.391 169.825 -102.488 165.971C-105.572 160.304 -106.475 152.931 -107.739 146.719C-110.522 133.047 -113.323 119.079 -114.739 105.194C-116.78 85.2001 -125.077 64.4951 -136.218 47.8105C-151.623 24.7423 -175.066 9.90948 -198.374 -4.16296C-210.486 -11.475 -226.873 -17.918 -237.089 -28.1345"
+            stroke="#88C701" stroke-linecap="round" />
+          <path
+            d="M150.484 683.055C156.88 661.279 164.727 638.812 162.841 615.754C159.768 578.178 137.26 543.397 119.512 511.224C107.366 489.207 94.9684 467.349 83.7667 444.825C78.6036 434.443 72.7904 423.309 74.9631 411.307C77.695 396.217 88.7551 383.365 96.2828 370.471C104.459 356.466 112.88 340.373 114.845 324.013C117.433 302.462 105.609 279.838 93.8433 262.705C73.548 233.153 44.5268 209.048 15.2465 188.882C-16.3088 167.149 -50.4819 152.019 -85.2004 136.325C-95.4453 131.693 -101.231 128.92 -110.869 123.862C-113.078 122.702 -123.1 118.687 -124.234 114.74C-125.063 111.85 -124.191 108.725 -124.021 105.724C-123.518 96.8325 -122.749 87.9618 -122.749 79.0477C-122.749 63.7432 -125.691 49.8829 -133.886 36.7795C-148.83 12.8839 -172.663 -5.37879 -186.072 -30.1498C-194.68 -46.0536 -216.309 -47.0907 -232.317 -51.9999"
+            stroke="#88C701" stroke-linecap="round" />
+        </g>
+      </svg>
+
+
+    </div>
+  </section>
+  <footer class="d -none" id="">
+    <div class="container max-w-1140">
+
+
+      <div class="pt-140 cursor">
+        <img src="./assets/images/campletelogo.svg" alt="campletelogo">
+      </div>
+
+      <div class="  row">
+        <div class="col-md-6 col-12 pt-6">
+          <p class="para_3 fs-16 fw-400 line-25 mb-0 poppins darkblack">Lorem ipsum dolor sit amet consectetur.
+            Suspendisse semper felis vulputate leo. Id duis morbi facilisis consequat mattis facilisi. </p>
+
+        </div>
+
+        <div class="col-md-6 col-12 d-f lex flex-column  j-c-e">
+          <div class="d-flex justify-content-md-end">
+            <ul class=" m-0 p-0 d-flex gap-28">
+              <li><a href="#home" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Home</a></li>
+              <li><a href="#about" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Our Services</a>
+              </li>
+              <li><a href="#" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Photos</a></li>
+              <li><a href="#about" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="d-md-flex   justify-content-md-end pt-21">
+            <ul class="d-flex gap-18 p-0 m-0">
+              <li> <a href="https://twitter.com/?lang=en" target="_blank"><img class="trasition_1"
+                    src="./assets/images/ant-design_twitter-circle-filled.png"
+                    alt="ant-design_twitter-circle-filled"></a></li>
+              <li> <a href="https://www.facebook.com/" target="_blank"><img class="trasition_1"
+                    src="./assets/images/ic_baseline-facebook.png" alt="ant-design_twitter-circle-filled"></a></li>
+              <li> <a href="https://www.instagram.com/?hl=en" target="_blank"><img class="trasition_1"
+                    src="./assets/images/ri_instagram-fill.png" alt="ant-design_twitter-circle-filled"></a></li>
+            </ul>
+          </div>
+        </div>
 
       </div>
-    </section>
-    <footer class="d -none" id="curric">
-      <div class="container max-w-1140">
-
-
-        <div class="pt-140 cursor">
-          <img src="./assets/images/campletelogo.svg" alt="campletelogo">
-        </div>
-
-        <div class="  row">
-          <div class="col-md-6 col-12 pt-6">
-            <p class="para_3 fs-16 fw-400 line-25 mb-0 poppins darkblack">Lorem ipsum dolor sit amet consectetur.
-              Suspendisse semper felis vulputate leo. Id duis morbi facilisis consequat mattis facilisi. </p>
-
-          </div>
-
-          <div class="col-md-6 col-12 d-f lex flex-column  j-c-e">
-            <div class="d-flex justify-content-md-end">
-              <ul class=" m-0 p-0 d-flex gap-28">
-                <li><a href="" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Home</a></li>
-                <li><a href="" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Our Services</a>
-                </li>
-                <li><a href="" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Photos</a></li>
-                <li><a href="" class="poppins fw-400 text-nowrap fs-16 line-25 darkblack under_line">Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="d-md-flex   justify-content-md-end pt-21">
-              <ul class="d-flex gap-18 p-0 m-0">
-                <li> <a href=""><img class="trasition_1" src="./assets/images/ant-design_twitter-circle-filled.png"
-                      alt="ant-design_twitter-circle-filled"></a></li>
-                <li> <a href=""><img class="trasition_1" src="./assets/images/ic_baseline-facebook.png"
-                      alt="ant-design_twitter-circle-filled"></a></li>
-                <li> <a href=""><img class="trasition_1" src="./assets/images/ri_instagram-fill.png"
-                      alt="ant-design_twitter-circle-filled"></a></li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-        <div class="last_line"></div>
-        <div class="d-flex justify-content-center pt-35 pb-33">
-          <h4 class="mb-0"><a href="" class=" m-0  poppins fw-400 fs-16 line-25 copy_right">Copyright © 2023 Evergreen
-              Landscapes LLC. All rights reserved.</a></h4>
-        </div>
+      <div class="last_line"></div>
+      <div class="d-flex justify-content-center pt-35 pb-33">
+        <h4 class="mb-0"><a href="" class=" m-0  poppins fw-400   line-25 copy_right">Copyright © 2023 Evergreen
+            Landscapes LLC. All rights reserved.</a></h4>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="./assets/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
-      integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
-    <script>
-      $('.responsive').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        // prevArrow:".prev-pos",
-        //     nextArrow:".next-pos",
-        dots: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+  <script src="./assets/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    $('.responsive').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      arrows: true,
+      // prevArrow:".prev-pos",
+      //     nextArrow:".next-pos",
+      dots: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
 
-        responsive: [
-          {
-            breakpoint: 1440,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
 
-            }
-          },
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: false,
-
-            }
-          },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: false
-
-
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false
-
-
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
           }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
 
-        ]
-      });
-      $('.header_image').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        prevArrow: ".prev-pos",
-        nextArrow: ".next-pos",
-
-        slidesToShow: 1,
-        slidesToScroll: 1,
-
-        responsive: [
-          {
-            breakpoint: 1440,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-
-            }
-          },
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-
-            }
-          },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false
-
-
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
           }
-
-        ]
-      });
-      $('.image_4').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        prevArrow: ".prev-pos",
-        nextArrow: ".next-pos",
-
-        slidesToShow: 4,
-        slidesToScroll: 1,
-
-        responsive: [
-          {
-            breakpoint: 1440,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-
-            }
-          },
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: false,
-
-            }
-          },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: false
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false
 
 
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              autoplay: true
-            }
           }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1.5,
+            slidesToScroll: 1,
+            arrows: false
 
-        ]
-      });
 
-    </script>
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        }
+
+      ]
+    });
+    $('.header_image').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      arrows: true,
+      prevArrow: ".prev-pos",
+      nextArrow: ".next-pos",
+      fade: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+
+
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        }
+
+      ]
+    });
+    $('.image_4').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      arrows: true,
+      prevArrow: ".prev-pos",
+      nextArrow: ".next-pos",
+
+      slidesToShow: 4,
+      slidesToScroll: 1,
+
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false
+
+
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true
+          }
+        }
+
+      ]
+    });
+    $('.image_5').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      arrows: true,
+      autoplay: true,
+      rtl: true,
+      slidesToShow: 1,
+      cssEase: "linear",
+      variableWidth: true,
+
+      slidesToScroll: 1,
+
+    });
+    $('.image_6').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      arrows: false,
+      autoplay: true,
+
+      slidesToShow: 1,
+      cssEase: "linear",
+      variableWidth: true,
+
+      slidesToScroll: 1,
+
+    });
+
+  </script>
 </body>
 
 </html>
